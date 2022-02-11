@@ -1,0 +1,19 @@
+<template>
+   <svg :width="size" height="auto" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.66669 12.8333V1.16666M7.66669 1.16666L1.83335 6.99999M7.66669 1.16666L13.5 6.99999" stroke="#12B76A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+
+</template>
+
+<script setup>
+let props = defineProps({
+    size: {
+        type: Number,
+        default: 15
+    },
+})
+</script>
+
+<style  scoped>
+</style>
